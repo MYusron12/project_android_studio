@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addmhs">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="18dp"
+            android:text="UNIVERSITAS\nMUHAMMADIYAH\nBANTEN"
+            android:textColor="#fff"
+            android:textSize="28sp"
+            android:textAlignment="textEnd"
+            android:fontFamily="@font/righteous"/>
+        <TextView
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:layout_width="400dp"
+            android:layout_height="35dp"
+            android:text="ADD FORM MAHASISWA"
+            android:textColor="#ffffff"
+            android:textSize="28sp"
+            android:fontFamily="@font/righteous"/>
+            />
+        <LinearLayout
+            android:layout_width="369dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="461dp"
+            android:orientation="vertical"
+            android:background="@drawable/bgformmhs"
+            >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="14dp"
+                android:fontFamily="@font/righteous"
+                android:text="Nama"
+                android:textColor="#ffffff" />
+
+            <EditText
+                android:id="@+id/create_nama"
+                android:layout_width="350dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="14dp"
+                android:background="@drawable/bgfieldmhs" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="14dp"
+                android:fontFamily="@font/righteous"
+                android:text="NIM"
+                android:textColor="#ffffff" />
+
+            <EditText
+                android:id="@+id/create_nim"
+                android:layout_width="350dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="14dp"
+                android:background="@drawable/bgfieldmhs" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="14dp"
+                android:fontFamily="@font/righteous"
+                android:text="Jurusan"
+                android:textColor="#ffffff" />
+
+            <EditText
+                android:id="@+id/create_jurusan"
+                android:layout_width="350dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="14dp"
+                android:background="@drawable/bgfieldmhs" />
+            <Button
+                android:id="@+id/create_btn"
+                android:layout_gravity="center"
+                android:layout_width="94dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/background_button"
+                android:hint="SIMPAN"
+                android:textColorHint="#ffffff"
+                android:fontFamily="@font/righteous"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
